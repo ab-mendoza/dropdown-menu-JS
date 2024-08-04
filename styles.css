@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: lavender;
+    box-shadow: 0.5rem 0.2rem 0.2rem 0 whitesmoke;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    list-style: none;
+    background-color: lavenderblush;
+    position: absolute;
+}
+
+.dropdown-item:hover {
+    background-color: lightpink;
+}
+
+.visible {
+    display: block;
+}
